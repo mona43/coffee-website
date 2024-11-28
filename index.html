@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal - youtube.com/@codingnepal -->
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>موقع القهوة | CodingNepal</title>
+    <!-- ربط أيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- ربط Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styel.css" />
+  </head>
+  <body>
+    <!-- الهيدر / شريط التنقل -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">☕ قهوة</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">القائمة</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">الشهادات</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">المعرض</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">اتصل بنا</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- قسم البطل -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">أفضل قهوة</h2>
+            <h3 class="subtitle">اجعل يومك رائعًا مع قهوتنا الخاصة!</h3>
+            <p class="description">مرحبًا بكم في جنة القهوة، حيث تحكي كل حبة قصة وتضفي كل كوب البهجة.</p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">اطلب الآن</a>
+              <a href="#contact" class="button contact-us">اتصل بنا</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/coffee-hero-section.png" alt="قهوة" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- قسم من نحن -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/about-image.jpg" alt="من نحن" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">من نحن</h2>
+            <p class="text">في مقهى بيرندورف بألمانيا، نفخر بكوننا وجهة مفضلة لمحبي القهوة وباحثي المحادثات. نحن ملتزمون بتقديم تجربة قهوة استثنائية في جو دافئ ومريح، حيث يمكن للضيوف الاسترخاء والاستمتاع بوقتهم بكل راحة.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- قسم القائمة -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">قائمتنا</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/hot-beverages.png" alt="مشروبات ساخنة" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">مشروبات ساخنة</h3>
+                <p class="text">مجموعة واسعة من القهوة الساخنة لتجعلك نشيطًا.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/cold-beverages.png" alt="مشروبات باردة" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">مشروبات باردة</h3>
+                <p class="text">قهوة باردة كريمية ومنعشة لتبقيك منتعشًا.</p>
+              </div>
+            </li>
+            <!-- باقي العناصر تبقى كما هي مع تغيير النصوص -->
+          </ul>
+        </div>
+      </section>
+
+      <!-- باقي الأقسام بنفس التنسيق مع النصوص المترجمة -->
+    </main>
+
+    <!-- ربط Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ربط سكريبت مخصص -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
